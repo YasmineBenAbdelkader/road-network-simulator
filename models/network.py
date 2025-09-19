@@ -6,7 +6,6 @@ class RoadNetwork:
         self.roads = []
 
     @classmethod
-    # @classmethod : cela signifie que la méthode appartient à la classe elle-même, pas à un objet déjà créé.
     def from_config(cls, config):
         network = cls()
         for r in config.get("roads", []):

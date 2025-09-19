@@ -1,0 +1,14 @@
+# Core
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Testing
+pytest
+
+# Optional (pour JSON/CSV, déjà dans la librairie standard de Python)
+# json
+# csv

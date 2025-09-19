@@ -1,10 +1,13 @@
 {
-  "roads": [
-    {"name": "A", "length": 1000, "speed_limit": 15.0},
-    {"name": "B", "length": 800, "speed_limit": 13.9}
-  ],
-  "vehicles_init": [
-    {"id": "v1", "road": "A", "position": 0, "speed": 10},
-    {"id": "v2", "road": "A", "position": 5, "speed": 8}
-  ]
+    "roads": [
+        {"name": "Avenue_A", "length": 1000, "speed_limit": 15},
+        {"name": "Boulevard_B", "length": 800, "speed_limit": 12},
+        {"name": "Route_C", "length": 1200, "speed_limit": 20}
+    ],
+    "vehicles_init": [
+        {"id": "V1", "road": "Avenue_A", "position": 0, "speed": 10},
+        {"id": "V2", "road": "Avenue_A", "position": 50, "speed": 12},
+        {"id": "V3", "road": "Boulevard_B", "position": 0, "speed": 8},
+        {"id": "V4", "road": "Route_C", "position": 0, "speed": 15}
+    ]
 }
