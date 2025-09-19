@@ -1,0 +1,10 @@
+{
+  "roads": [
+    {"name": "A", "length": 1000, "speed_limit": 15.0},
+    {"name": "B", "length": 800, "speed_limit": 13.9}
+  ],
+  "vehicles_init": [
+    {"id": "v1", "road": "A", "position": 0, "speed": 10},
+    {"id": "v2", "road": "A", "position": 5, "speed": 8}
+  ]
+}
